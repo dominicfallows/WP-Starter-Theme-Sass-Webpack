@@ -1,0 +1,15 @@
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+  padding-top: 3rem;
+
+  @include breakpoint(medium) {
+    padding-top: 4rem;
+  }
+
+  .site-content {
+    flex: 1;
+  }
+}

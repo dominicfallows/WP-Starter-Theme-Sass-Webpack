@@ -1,0 +1,15 @@
+.site-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.8em;
+  background: $light-gray;
+  
+  .footer-nav .menu li {
+    margin-right: 1rem;
+  }
+  .footer-nav .menu li a {
+    padding: 0.2rem 0;
+  }
+
+}

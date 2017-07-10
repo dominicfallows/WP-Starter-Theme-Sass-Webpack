@@ -1,0 +1,59 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  @include breakpoint(medium) {
+    height: 3.4rem;
+  }
+  
+  a {
+    color: $white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .top-bar-container {
+    max-width: $global-width;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .site-brand {
+    font-weight: bold;
+    text-transform: uppercase;
+  } 
+
+  .title-bar .title-bar-title {
+    padding-left: 0.5rem;
+  }
+
+  .current-menu-item,
+  .current_page_item {
+    font-weight: bold;
+  }
+  
+}
+
+/**
+ * Preventing FOUC
+ * http://foundation.zurb.com/sites/docs/responsive-navigation.html#preventing-fouc
+ */
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+
+    .menu .sub-menu,
+    .title-bar {
+      display: none;
+    }
+  }
+}
