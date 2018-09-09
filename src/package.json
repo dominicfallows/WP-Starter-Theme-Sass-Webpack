@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.php",
   "author": "Dominic Fallows <consultant@dominicfallows.uk>",
+  "description": "WordPress Starter Theme with Sass + Webpack",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/dominicfallows/WP-Starter-Theme-Sass-Webpack.git"
+  },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.25.0",
