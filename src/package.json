@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.php",
   "author": "Dominic Fallows <consultant@dominicfallows.uk>",
+  "description": "WordPress Starter Theme with Sass + Webpack",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/dominicfallows/WP-Starter-Theme-Sass-Webpack.git"
+  },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.25.0",
@@ -15,6 +19,7 @@
     "browser-sync": "^2.18.12",
     "browser-sync-webpack-plugin": "^1.2.0",
     "bs-fullscreen-message": "^1.1.0",
+    "cross-env": "^5.2.0",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
@@ -30,7 +35,7 @@
     "webpack-merge": "^4.1.0"
   },
   "scripts": {
-    "build": "NODE_ENV=production webpack --config webpack/prod.config.js --progress --colors",
-    "start": "NODE_ENV=development webpack --config webpack/dev.config.js --progress --colors --watch"
+    "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --colors",
+    "start": "cross-env NODE_ENV=development webpack --config webpack/dev.config.js --progress --colors --watch"
   }
 }
