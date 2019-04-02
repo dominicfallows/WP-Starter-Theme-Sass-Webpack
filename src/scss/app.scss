@@ -1,14 +1,14 @@
 // Foundation - pre settings
-@import "../node_modules/foundation-sites/scss/foundation";
+@import '../node_modules/foundation-sites/scss/foundation';
 
 // Vendor
-$fa-font-path: "./vendor/font-awesome/fonts";
-@import "vendor/font-awesome/scss/font-awesome";
+$fa-font-path: './vendor/font-awesome/fonts';
+@import 'vendor/font-awesome/scss/font-awesome';
 
 // Override and add to settings
-@import "globals/colors";
-@import "globals/type";
-@import "globals/settings";
+@import 'globals/colors';
+@import 'globals/type';
+@import 'globals/settings';
 
 // Import Foundation components
 @include foundation-global-styles;
@@ -52,13 +52,13 @@ $fa-font-path: "./vendor/font-awesome/fonts";
 @include foundation-visibility-classes;
 @include foundation-float-classes;
 
-// Globals 
-@import "globals/global";
+// Globals
+@import 'globals/global';
 
 // Our modules
-@import "modules/base";
-@import "modules/header";
-@import "modules/footer";
+@import 'modules/base';
+@import 'modules/header';
+@import 'modules/footer';
 
 // Our templates
-@import "templates/home";
+@import 'templates/home';
