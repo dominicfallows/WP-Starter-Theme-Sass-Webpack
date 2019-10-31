@@ -1,4 +1,4 @@
-=== WP Starter Theme with Sass + Webpack ===
+=== DEPRECATED: WP Starter Theme with Sass + Webpack ===
 Contributors: dominicfallows
 Requires at least: WordPress 4.8
 Tested up to: WordPress 4.8
@@ -8,6 +8,9 @@ License URI: https://opensource.org/licenses/MIT
 Tags: sass, foundation-site, webpack2, babel, browser-sync
 
 == Description ==
+
+Note: this theme is now deprecated due to the changes in WordPress since v5.0. 
+Feel free to fork and update for your own usage but I will no longer be updating this repo.
 
 For more information https://github.com/dominicfallows/WP-Starter-Theme-Sass-Webpack
 
